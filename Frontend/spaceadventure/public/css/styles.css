@@ -1,0 +1,114 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #000000;
+
+   
+}
+#wrapper {
+    background-color: #000000;
+    
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+
+}
+
+
+header {
+    width: 100%;
+    background-color: rgb(129, 142, 158);
+    
+}
+
+header h1 {
+    font-family: "Audiowide", Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 0 auto;
+ 
+
+}
+
+
+section h2 {
+    font-size: x-large;
+}
+
+section h3 {
+    font-size: large;
+}
+
+section p {
+    font-size: large;
+}
+
+#dialogue {
+    text-align: center;
+
+}
+#dialogue div {
+    width: 300px;
+}
+
+#dialogue img{
+    max-width: 450px;
+    object-fit: contain;
+    
+  }
+  
+
+#choiceMenu{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.choices {
+    background-color: silver;
+    color: rgb(44, 44, 44);
+    border-radius: 5px;
+    margin: 2%;
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+
+    main {
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #dialogue {
+        text-align: center;
+        margin: 0 0 0 0 ;
+    }
+
+    
+    #dialogue img{
+        max-width: 400px;
+        object-fit: contain;
+    
+  }
+    
+
+
+}
+
